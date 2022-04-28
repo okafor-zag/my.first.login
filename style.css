@@ -1,0 +1,180 @@
+body::before {
+    content:'';
+    position:fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    background: hsl(249, 52%, 64%);
+    
+      background-image: linear-gradient( 
+  115deg
+  , rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat-x:no-repeat;
+    background-repeat-y:no-repeat;
+    background-position: center;
+  }
+  *, *::before, *::after{
+    box-sizzing:borderr-box;
+  }
+  body{
+     font-family:tahoma, san-serif;
+    font-style:normal;
+    line-height: 1.4;
+    text-align: center;
+    font-size: 10px;
+    font-weight:400;
+    margin:0;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .container{
+        width: 100%;
+      margin: 2.125rem auto 2.125rem auto;
+    position:static;
+  }
+  @media (min-width: 396px){
+  .container{
+    max-width: 330px;
+    }}
+    form{
+      background-color:rgb(200, 200, 200);
+        border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+      border-bottom-right-radius: 0.25rem;
+      border-bottom-left-radius: 0.25rem;
+   padding: 3.5rem 1.625rem;
+      
+    }
+    
+  .form-group {
+    margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 1.25rem;
+      margin-left: auto;
+    padding-top: 0.25rem;
+      padding-right: 0.25rem;
+      padding-bottom: 0.25rem;
+      padding-left: 0.25rem;
+    font-size:20px;
+        box-sizing: border-box;
+  }
+  header{
+    margin-bottom:12px;
+    font-size:33px;
+    font-family:sans-serif;
+    color:black;
+  }
+  label{
+    display: flex;
+      align-items: center;
+      font-size: 1.005rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+  }
+  label{
+    color:rgb(60, 60, 60)
+  }
+  .past{
+    text-align:right;
+    font-size:6px;
+    padding-bottom:9px;
+    padding-right:12px;
+    cusor: pointer;
+    }
+  a{
+    color:rgb(60,60,60);
+    text-decoration: none;
+  }
+  p{
+    font-size:11px;
+     color:rgb(60,60,60);
+  }
+  .form-control{
+    display:block;
+    width:100%;
+    height:2.375rem;
+    padding:1.373rem 0.75rem;
+    color:rgb(90, 90, 90);
+    background-color: #fff;
+    background-clip:padding-box;
+    border-top-color: rgb(90, 90, 90);
+      border-top-style: solid;
+      border-top-width: 1px;
+      border-right-color: rgb(90, 90, 90);
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-bottom-color: rgb(90, 90, 90);
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: rgb(90, 90, 90);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+    border-top-left-radius: 1.25rem;
+      border-top-right-radius: 1.25rem;
+      border-bottom-right-radius: 1.25rem;
+      border-bottom-left-radius: 1.25rem;
+    font-size: 20px;
+        box-sizing: border-box;
+  }
+  ::-webkit-input-placeholder{
+    font-size: 15px;
+    padding-left:10px;
+  }
+  button{
+      width:100%;
+    background: hsl(249, 52%, 64%);
+    
+      background-image: linear-gradient( 
+  115deg
+  , rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat-x:no-repeat;
+    background-repeat-y:no-repeat;
+    background-position: center;
+    min-height:30px;
+    display:block;
+    padding: 0.75rem;
+    color: inherit;
+    border-radius:20px;
+    cursor:pointer;
+    }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa{
+     padding: 15px;
+    margin:8px;
+    font-size: 12px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color:white;
+  }
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background:rgb(199, 0, 0);
+  }
+  
