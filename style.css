@@ -17,7 +17,7 @@ body::before {
     background-position: center;
   }
   *, *::before, *::after{
-    box-sizzing:borderr-box;
+    box-sizing:borderr-box;
   }
   body{
      font-family:tahoma, san-serif;
@@ -43,8 +43,7 @@ body::before {
   }
   @media (max-width: 696px){
   .container{
-    width: 90%;
-    height: 100%;
+    max-width: 330px;
     }}
     form{
       background-color:rgb(200, 200, 200);
